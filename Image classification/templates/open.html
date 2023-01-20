@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+	<style type="text/css">
+	body{
+		background-image: url(static/images/image.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.part{
+		border: solid;
+		border-color: #e69947;
+		border-radius: 30px;
+		margin-left: 300px;
+		margin-right: 300px;
+		margin-top: 300px;
+	}
+	.part h1{
+		color: #45380c;
+	}
+</style>
+</head>
+
+<body>
+	<div class="part">
+        <center>
+        	<h1>{{n}}</h1>
+        </center>
+    </div>
+</body>
+
+</html>

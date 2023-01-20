@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(120, 241, 251);
+}
+
+.button5{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    background-color: #81c8a4;
+background-image: linear-gradient(315deg, #97f587 0%, #93e771 74%);
+border-radius: 40px;
+color: white;
+}
+.button5:hover{
+    background: rgb(16, 93, 54);
+}
+
+
+
+
